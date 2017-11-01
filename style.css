@@ -55,20 +55,20 @@ body,html
 }
 
 #carIcon
-{
-    height: 146px;
-    
- animation-iteration-count: 393369;
+{height: 146px;
+animation-iteration-count: 393369;
+z-index: 9999;
+opacity: 1;
 }
 
 #header-left
 { border-radius: 25px;
   display: inline-block;
-
   height: 100%;
   width: 58%;
   font-family: 'Engagement',cursive;
   padding-right: 0;
+  opacity: 1;
 }
 
 #icons
