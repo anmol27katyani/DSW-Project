@@ -51,22 +51,21 @@ body,html
   background-color: transparent;
   display: flex;
   flex-direction: row-reverse;
-
 }
 
 #carIcon
 {
-    height: 46px;
+    height: 146px;
+    
+ animation-iteration-count: 393369;
 }
 
 #header-left
 { 
-  display: inline-block;
   height: 100%;
   width: 58%;
-  
+  font-family: 'Engagement',cursive;
   padding-right: 0;
-  background-color: red;
 }
 
 #icons
@@ -75,6 +74,7 @@ body,html
     width: 80%;
   background-color: black;
   opacity: 0.5;
+    
 
 }
 .animated {
@@ -161,3 +161,27 @@ body,html
   animation-name: pulse;
 }
 
+
+
+
+@keyframes pulse2 {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse2 {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
