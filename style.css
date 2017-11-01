@@ -13,18 +13,35 @@ body,html
   margin:0;
 
 }
+.welcometext
+{ font-size: 150px;
+  font-family: 'Tangerine', cursive;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
 .bg
-{  background: url(cars.jpg) no-repeat center center fixed; 
+{  background: url(cars4.png) no-repeat center center fixed; 
    position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+.logo
+{  height: 300px;
+   width: 300px;
+
+
+}
 #welcome
-{height: 500px;
+{ align-items: center;
+
+  height: 500px;
     width: 80%;
- background-color: #FFFFFF;
+ 
+
 
 
 }
