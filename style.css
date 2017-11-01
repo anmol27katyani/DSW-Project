@@ -45,7 +45,23 @@ body,html
 
 
 }
+#header
+{ height: 226px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row-reverse;
 
+}
+#header-left
+{ 
+  display: inline-block;
+  height: 100%;
+  width: 58%;
+  
+  padding-right: 0;
+  background-color: red;
+}
 #icons
 { border-radius: 25px;
  height: 800px;
