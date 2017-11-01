@@ -50,10 +50,12 @@ body,html
 { border-radius: 25px;
  height: 800px;
     width: 80%;
-  background-color: #FAAAAA;
+  background-color: black;
+  opacity: 0.5;
 
 }
 .animated {
+  z-index: 999999;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
