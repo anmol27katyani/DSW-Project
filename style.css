@@ -47,7 +47,8 @@ body,html
 }
 
 #icons
-{ height: 800px;
+{ border-radius: 25px;
+ height: 800px;
     width: 80%;
   background-color: #FAAAAA;
 
