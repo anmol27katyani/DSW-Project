@@ -51,24 +51,29 @@ body,html
   width: 100%;
   background-color: transparent;
   display: flex;
+    flex-wrap: nowrap;
   flex-direction: row-reverse;
 }
 
 #carIcon
-{height: 146px;
+{height: 106px;
 animation-iteration-count: 393369;
 z-index: 9999;
 opacity: 1;
 }
 
+#tansparent
+{
+    opacity: 0;
+}
+
 #header-left
 { border-radius: 25px;
-  display: inline-block;
   height: 100%;
   width: 58%;
-  font-family: 'Engagement',cursive;
-  padding-right: 0;
-position: relative;}
+  font-family: 'Libre Barcode 39 Text';
+  padding-right: 30;
+position:relative}
 
 #icons
 { border-radius: 25px;
