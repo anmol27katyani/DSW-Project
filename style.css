@@ -99,6 +99,7 @@ position:relative}
 }
 #suv , #sedan ,#coupes , #offroad, #sports,#bikes
 {
+  border-radius: 25px;
   width:33%;
   height: 120px;
   background-color: black;
