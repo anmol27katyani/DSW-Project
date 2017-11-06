@@ -1,8 +1,24 @@
-function load_next()
+function suv_page()
 {
-	$('#dynamic').load('temp.html');
+	$('#dynamic').load('suv.html');
 }
-function begin()
+function sedan_page()
 {
-    $('#dynamic').load('home.html');	
+    $('#dynamic').load('sedan.html');	
+}
+function coupes_page()
+{
+    $('#dynamic').load('coupes.html');	
+}
+function offroad_page()
+{
+    $('#dynamic').load('offroad.html');	
+}
+function bikes_page()
+{
+    $('#dynamic').load('bikes.html');	
+}
+function sports_page()
+{
+    $('#dynamic').load('sports.html');	
 }
