@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Vibur);
+@import url(//fonts.googleapis.com/css?family=Vibur);@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 .navbar {
   overflow: hidden;background: linear-gradient(270deg, #870fec, #e62433);
 background-size: 400% 400%;
@@ -71,10 +71,13 @@ opacity: 1;
 { border-radius: 25px;
   height: 100%;
   width: 58%;
-  font-family: 'Libre Barcode 39 Text';
   padding-right: 30;
 position:relative}
 
+#likeit{
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 69px;
+}
 #icons
 { border-radius: 25px;
  height: 800px;
