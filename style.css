@@ -68,15 +68,15 @@ opacity: 1;
   width: 58%;
   font-family: 'Engagement',cursive;
   padding-right: 0;
-  opacity: 1;
-}
+position: relative;}
 
 #icons
 { border-radius: 25px;
  height: 800px;
     width: 80%;
   background-color: black;
-  opacity: 0.5;
+  background-color:rgba(0,0,0,0.5);
+  color:rgb(255,255,255);
     
 
 }
