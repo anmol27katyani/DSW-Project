@@ -88,6 +88,9 @@ position:relative}
     
 
 }
+#dynamic{
+  padding-top: 70px;
+}
 .animated {
   z-index: 999999;
   -webkit-animation-duration: 1s;
