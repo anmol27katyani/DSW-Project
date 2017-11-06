@@ -1,6 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Vibur);@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 .navbar {
-  overflow: hidden;background: linear-gradient(270deg, #870fec, #e62433);
+  overflow: hidden;
+    background: linear-gradient(270deg, #870fec, #e62433);
 background-size: 400% 400%;
     animation: AnimationName 4s ease infinite;
   position: fixed;
@@ -99,7 +100,7 @@ position:relative}
 }
 #suv , #sedan ,#coupes , #offroad, #sports,#bikes
 {
-  border-radius: 25px;
+  border-radius: 10px;
   width:33%;
   height: 120px;
   background-color: black;
