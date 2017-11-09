@@ -75,6 +75,47 @@ position:relative}
     font-family: 'Libre Barcode 128 Text', cursive;
     font-size: 69px;
 }
+#carpage{
+  width: 100%;
+  height: 100%;
+  /*display: flex;
+  justify-content: space-around;*/
+}
+#car_photo{
+  height: 400px;
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+  overflow: auto;
+  border-radius: 25px;
+}
+#car_photo1{
+  border-radius: 25px;
+ /*424x318*/
+
+}
+#car_purchase{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  width: 425px;
+  height: 100px;
+  line-height: 100px;
+  float:right;
+  background-color: #077c13;
+  position: relative;
+  border-radius: 25px;
+  margin-left: 20px;
+  bottom: 7px;
+}
+
+#car_info{
+  width: 425px;
+  position: relative;
+  float: right;
+  margin:20px;
+
+}
 #icons
 { border-radius: 25px;
  height: 800px;
