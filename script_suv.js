@@ -8,7 +8,7 @@ function duster()
 }
 function ecosport()
 {
-    $('#dynamic').load('Purchase/suv/ecosport.html');	
+    $('#dynamic').load('Purchase/suv/ecoford.html');	
 }
 function endeavour()
 {
