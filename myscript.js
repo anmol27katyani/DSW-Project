@@ -1,6 +1,6 @@
 function suv_page()
 {
-	$('#dynamic').load('Purchase/ecoford.html');
+	$('#dynamic').load('SUV.html');
 }
 function sedan_page()
 {
