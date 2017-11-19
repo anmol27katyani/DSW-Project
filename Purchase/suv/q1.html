@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>
+Purchase page</title>
+    <link rel="stylesheet" href="style_form.css">
+   
+<script type="text/javascript">
+<script>
+    
+function validate(form) {
+var flag=0;
+if(form.name.value == "")
+{
+alert("enter name");
+return false;
+}
+
+if(form.email.value == "")
+{
+alert("E-mail is required");
+return false;
+}
+document.getElementById("frm").submit();
+}           
+</script>
+</head>
+<body>
+<form name="validation" id="form" action="php_file1.php" METHOD="POST">
+    <div id="heder_text"><b>REGISTRATION GOES IN HERE ONLY!</b></div>
+    <div id="lay_out"><br><br>
+    <br>
+        <table >
+        <tr>
+            <td>Name:</td><td><input type="text" name="name" placeholder="Your name.."></td>
+            </tr>
+    <tr><td>Email-id:</td><td><input type="text" NAME="email" placeholder="Your e-mail address.."></td></tr>
+   
+   <tr> <td>Contact Number:</td><td><input type="text" NAME="website" placeholder="Your Contact.."></td></tr>
+    <tr><td>Comment:</td><td><input type="textarea" name="comment" placeholder="Comment please"></td></tr>
+    <tr>
+    <td>Gender: </td><td>Male<input type="radio" name="gender">  Female<input type="radio" name="gender"></td></tr>
+    <tr><td>Dilevery Prefernce: </td><td><input type="datetime" placeholder="Tentative date please.."/></td></tr>
+            <td>
+<button class="button" onclick="validate(validation)">Place It</button>
+            </td>
+            </table>
+        
+            </div>
+    </form>
+</body>
+</html>

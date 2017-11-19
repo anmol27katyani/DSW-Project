@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+#heder_text
+{
+  font-family:Raleway;
+    font-size: 52px;
+    font-display: block;
+    text-align: center;
+    padding-top: 40px;
+    color:#fffafa;
+    height: 100px;
+    font-feature-settings: normal;
+    background-color: #f88e8e;
+}
+#lay_out{
+    background: linear-gradient(180deg, #e99b8f 0% ,#fffafa 50%,#e99b8f 100%);
+    background-size: 400% 400%;
+    height: 665px;
+    color: aqua;
+    animation: AnimationName 4s ease infinite;
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+table{
+    width: 100%;
+    text-align: left;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #f88e8e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

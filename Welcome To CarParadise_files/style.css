@@ -29,7 +29,6 @@ body,html
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-    height: 190%;    
   background-size: cover;
 }
 .logo
@@ -80,6 +79,8 @@ position:relative}
 #carpage{
   width: 100%;
   height: 100%;
+  /*display: flex;
+  justify-content: space-around;*/
 }
 #car_photo{
   height: 400px;
@@ -91,6 +92,7 @@ position:relative}
 }
 #car_photo1{
   border-radius: 25px;
+ /*424x318*/
 
 }
 #car_purchase{
@@ -129,6 +131,7 @@ position:relative}
   margin: 10px;
   padding-top: 70px;
   display:flex;
+    height: 200px;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
